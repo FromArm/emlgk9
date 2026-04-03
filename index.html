@@ -715,7 +715,7 @@
   <span class="section-label">Get in Touch</span>
   <h2>Book Your Free Consultation</h2>
   <p>Not sure where to start? Let's chat about your dog's needs and find the perfect program. First call is always free.</p>
-  <form class="contact-form" onsubmit="handleSubmit(event)">
+  <form class="contact-form" action="https://formspree.io/f/xojpnzjg" method="POST">
     <div class="form-group">
       <label>Your Name</label>
       <input type="text" placeholder="Jane Smith" required>
@@ -751,7 +751,7 @@
 <!-- FOOTER -->
 <footer>
   <div class="logo">EML<span>GK9</span></div>
-  <p>© 2026 EMLGK9 · (747) 324-3371 · info@emlgk9.com</p>
+  <p>© 2026 EMLGK9 · (747) 324-3371 · emlgk9usa@gmail.com</p>
   <div class="footer-links">
     <a href="#services">Services</a>
     <a href="#about">About</a>
@@ -759,7 +759,7 @@
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
   function handleSubmit(e) {
     e.preventDefault();
     const btn = e.target.querySelector('.submit-btn');
@@ -770,12 +770,4 @@
 
   // Scroll reveal
   const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => {
-      if (e.isIntersecting) {
-        e.target.style.opacity = '1';
-        e.target.style.transform = 'translateY(0)';
-      }
-    });
-  }, { threshold: 0.1 });
-
-  document.querySelectorAll('.service-card, .perk, .tes
+    entries.forEach
